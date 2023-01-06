@@ -1,0 +1,28 @@
+.lol_logo{
+    width: 30px;
+}
+
+
+
+
+.bg-perso{
+    background-color: #0A2537;
+    border-bottom: 1px solid #40adbb;
+}
+
+.navbar-color{
+    color: #E0D8C5;
+}
+
+
+
+
+.btn-search-perso{
+    background-color: #0A2537;
+    color: #E0D8C5;
+}
+
+.btn-search-perso:hover{
+    background-color: #0f2e44;
+    color: #E9DFCD;
+}

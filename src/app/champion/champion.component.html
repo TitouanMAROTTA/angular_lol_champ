@@ -1,0 +1,41 @@
+<div class="d-flex align-items-center champion" *ngIf="championDeleted == false">
+    <div class="flex-fill">
+    </div>
+
+    <div class="flex-fill">
+        <img class="mainLogo" [src]="championMainLogo">
+    </div>
+    <div class="flex-fill">
+        <ul>
+            <div *ngIf="championBought == true">
+                <h3> {{ championName }} (<img class="boughtLogo" [src]="championBoughtLogo">)</h3>
+            </div>
+
+
+            <div *ngIf="championBought == false">
+                <h3> {{ championName }} (<img class="boughtLogo" [src]="championNotBoughtLogo">)</h3>
+            </div>
+
+            <li><img class="statsLogo" [src]="championHPLogo"> {{ championHP }} </li>
+            <li><img class="statsLogo" [src]="championMPLogo"> {{ championMP }} </li>
+            <li><img class="statsLogo" [src]="championADLogo"> {{ championAD }} </li>
+            <li><img class="statsLogo" [src]="championARLogo"> {{ championAR }} </li>
+            <li><img class="statsLogo" [src]="championMSLogo"> {{ championMS }} </li>
+            
+        </ul>
+    </div>
+    
+    <div class="flex-fill" *ngIf="championBought == true">
+        <button type="button" class="btn btn-sell-perso" (click)="onBoughtChampion()">Vendre</button>
+        <a class="btn btn-modify-perso" routerLink="/modif/:id">Modifier</a>
+        <!-- <a class="btn btn-modify-perso" routerLink="['/modif', id]">Modifier</a> -->
+        <button type="button" class="btn btn-delete-perso" (click)="deleteChampion">Supprimer</button>
+    </div>
+
+    <div class="flex-fill" *ngIf="championBought == false">
+        <button type="button" class="btn btn-bought-perso" (click)="onBoughtChampion()">Acheter</button>
+        <a class="btn btn-modify-perso" routerLink="/modif/:id">Modifier</a>
+        <!-- <a class="btn btn-modify-perso" routerLink="['/modif', id]">Modifier</a> -->
+        <button type="button" class="btn btn-delete-perso" (click)="deleteChampion()">Supprimer</button>
+    </div>
+</div>

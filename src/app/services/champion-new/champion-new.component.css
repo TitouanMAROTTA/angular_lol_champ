@@ -1,0 +1,40 @@
+.div_add_new_champ{
+    color: #BB9C63;
+    background-color: #0F2E44;
+
+    padding-top: 3%;
+    padding-bottom: 1%;
+
+}
+
+p{
+    color: #E0D8C5;
+}
+
+
+
+
+.btn-primary-perso{
+    height: 50px;
+}
+
+
+
+.align-self-center{
+    padding: 0px 150px 0px 75px;
+}
+
+
+
+
+.btn-add-perso{
+    border: 1px solid #40ADBB;
+
+    background-color: #0A2537;
+    color: #E0D8C5;
+}
+
+.btn-add-perso:hover{
+    background-color: #399AA7;
+    color: #E0D8C5;
+}

@@ -1,0 +1,93 @@
+.champion{
+    background-color: #0F2E44;
+    padding-top: 20px;
+
+    color:#E0D8C5;
+}
+
+
+
+
+.mainLogo{
+    width: 125px;
+}
+
+
+
+
+.championStats{
+    width:600px;
+}
+
+h3{
+    color: #BB9C63;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.statsLogo{
+    width:15px;
+}
+
+
+
+.boughtLogo{
+    width:20px;
+}
+
+
+
+
+.btn-bought-perso{
+    border: 1px solid #40ADBB;
+
+    background-color: #0A2537;
+    color: #c0e2a4;
+}
+
+.btn-bought-perso:hover{
+    background-color: #103d5a;
+    color: #b4f77e;
+}
+
+
+
+.btn-sell-perso{
+    border: 1px solid #40ADBB;
+
+    background-color: #0A2537;
+    color: #ddb0b0;
+}
+
+.btn-sell-perso:hover{
+    background-color: #103d5a;
+    color: #ff8282;
+}
+
+
+
+.btn-delete-perso{
+    border: 1px solid #772727;
+
+    background-color: #460d0d;
+    color: #E0D8C5;
+}
+
+.btn-delete-perso:hover{
+    background-color: #772727;
+}
+
+
+
+.btn-modify-perso{
+    border: 1px solid #3664a0;
+
+    background-color: #234066;
+    color: #E0D8C5;
+}
+
+.btn-modify-perso:hover{
+    background-color: #3664a0;
+}

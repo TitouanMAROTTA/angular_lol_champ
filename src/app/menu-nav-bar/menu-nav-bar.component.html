@@ -1,0 +1,22 @@
+<nav class="navbar fixed-top navbar-expand-lg bg-perso">
+    <div class="container-fluid">
+      <a routerLinkActive="" class="navbar-brand navbar-color" routerLink=""> <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/LoL_icon.svg" alt="" class="lol_logo"> Accueil</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item" routerLinkActive="active">
+                <a class="nav-link navbar-color" routerLink="champions">Champions</a>
+            </li>
+            <li class="nav-item" routerLinkActive="active">
+                <a class="nav-link navbar-color" routerLink="new">Nouveau champion</a>
+            </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2 disabled" type="search" placeholder="Search" aria-label="Search" disabled="true">
+          <button class="btn btn-search-perso disabled" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>

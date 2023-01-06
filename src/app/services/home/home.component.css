@@ -1,0 +1,28 @@
+div{
+    color: #BB9C63;
+    background-color: #0F2E44;
+}
+
+h1{
+    padding-top: 10%;
+    color: #BB9C63;
+}
+
+p{
+    color: #E0D8C5;
+}
+
+
+
+
+.btn-start-perso{
+    border: 1px solid #40ADBB;
+
+    background-color: #0A2537;
+    color: #E0D8C5;
+}
+
+.btn-start-perso:hover{
+    background-color: #399AA7;
+    color: #E0D8C5;
+}
